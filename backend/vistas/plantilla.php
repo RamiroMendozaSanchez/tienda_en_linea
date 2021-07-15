@@ -28,9 +28,9 @@ session_start();
   <link rel="stylesheet" href="vistas/bower_components/Ionicons/css/ionicons.min.css">
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="vistas/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="vistas/dist/css/AdminLTE.css">
   
-  <link rel="stylesheet" href="vistas/dist/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="vistas/dist/css/skins/skin-feervick.css">
 
   <!-- iCheck -->
   <link rel="stylesheet" href="vistas/plugins/iCheck/square/blue.css">
