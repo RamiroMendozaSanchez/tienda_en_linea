@@ -388,7 +388,7 @@ LISTAR PRODUCTOS
 
 					if($value["estado"] != 0){
 					
-						echo '<li class="col-md-3 col-sm-6 col-xs-12">
+						echo '<li class="col-md-3 col-sm-6 col-xs-12 bordes">
 
 							<figure>
 								
@@ -416,13 +416,13 @@ LISTAR PRODUCTOS
 
 										if($fechaNueva < $value["fecha"]){
 
-											echo '<span class="label label-warning fontSize">Nuevo</span> ';
+											echo '<span class="label label-default fontSize">Nuevo</span> ';
 
 										}
 
 										if($value["oferta"] != 0 && $value["precio"] != 0){
 
-											echo '<span class="label label-warning fontSize">'.$value["descuentoOferta"].'% off</span>';
+											echo '<span class="label color fontSize">'.$value["descuentoOferta"].'% off</span>';
 
 										}
 
@@ -450,7 +450,7 @@ LISTAR PRODUCTOS
 
 											</small>
 
-											<small>$'.$value["precioOferta"].'</small>
+											<small class="color-letter">$'.$value["precioOferta"].'</small>
 										
 										</h2>';
 

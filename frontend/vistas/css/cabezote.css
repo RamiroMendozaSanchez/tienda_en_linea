@@ -51,7 +51,7 @@ header #buscador input{
 
 header #buscador button{
 	padding:9px;
-	border:1px solid silver;
+	border:1px solid silver !important;
 	border-radius:0;
 }
 

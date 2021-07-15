@@ -138,7 +138,7 @@ FINAL
 	
 		<div class="row">
 			
-			<div class="col-sm-6 col-xs-12 text-left text-muted">
+			<div class="col-sm-6 col-xs-12 text-center text-muted">
 				
 				<h5>&copy; 2017 Todos los derechos reservados. Sitio elaborado por la Compañía</h5>
 

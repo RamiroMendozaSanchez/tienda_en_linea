@@ -107,7 +107,7 @@ function movimientoSlide(item){
 
 	// http://easings.net/es
 
-	$("#slide ul").animate({"left": item * -100 + "%"}, 1000, "easeOutQuart")
+	$("#slide ul").animate({"left": item * -100 + "%"}, 3000, "easeOutQuart")
 
 	$("#paginacion li").css({"opacity":.5})
 
@@ -155,7 +155,7 @@ setInterval(function(){
 
 	}
 
-},3000)
+},5000)
 
 /*=============================================
 APARECER FLECHAS
@@ -173,8 +173,8 @@ $("#slide").mouseover(function(){
 
 $("#slide").mouseout(function(){
 
-	$("#slide #retroceder").css({"opacity":0})
-	$("#slide #avanzar").css({"opacity":0})
+	$("#slide #retroceder").css({"opacity":1})
+	$("#slide #avanzar").css({"opacity":1})
 
 	detenerIntervalo = false;
 
@@ -190,7 +190,7 @@ $("#btnSlide").click(function(){
 
 		toogle = true;
 
-		$("#slide").slideUp("fast");
+		$("#slide").slideUp("slow");
 
 		$("#btnSlide").html('<i class="fa fa-angle-down"></i>')
 	
@@ -198,7 +198,7 @@ $("#btnSlide").click(function(){
 
 		toogle = false;
 
-		$("#slide").slideDown("fast");
+		$("#slide").slideDown("slow");
 
 		$("#btnSlide").html('<i class="fa fa-angle-up"></i>')
 	}

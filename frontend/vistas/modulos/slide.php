@@ -44,7 +44,7 @@ SLIDESHOW
 
 									<h2 style="color:'.$titulo2["color"].'">'.$titulo2["texto"].'</h2>
 
-									<h3 style="color:'.$titulo3["color"].'">'.$titulo3["texto"].'</h3>';
+									<h4 style="color:'.$titulo3["color"].'">'.$titulo3["texto"].'</h4>';
 
 								if($value["boton"] != ""){
 

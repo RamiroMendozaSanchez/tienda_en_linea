@@ -5,6 +5,7 @@ BANNER
 .banner{
 	position: relative;
 	overflow:hidden;
+	margin-bottom: 30px;
 }
 
 .banner .textoBanner{
@@ -67,6 +68,17 @@ VITRINA PRODUCTOS CUADRÍCULA
 	margin-left:5px;
 }
 
+.productos ul .bordes{
+	padding:1px;
+	margin-left: 10px;
+
+}
+
+.productos ul .bordes:hover{
+	box-shadow: 4px 4px 12px 0px rgba(141,141,141,0.3);
+
+}
+
 .productos ul li figure{
 	overflow:hidden;
 }
@@ -82,6 +94,7 @@ VITRINA PRODUCTOS CUADRÍCULA
 	text-transform: uppercase;
 	font-size:12px;
 	font-weight: 700;
+	margin-left:10px;
 }
 
 .productos ul li h4 small a{
@@ -132,10 +145,25 @@ VITRINA PRODUCTOS LISTA
 	 font-size:15px;
 }
 
-.fontSize{
-	font-size:11px;
+.precio{
+	padding:0px 0px 0px 10px !important;
 }
 
+.fontSize{
+	font-size:11px;
+	margin-left:5px;
+}
+
+.color{
+	background:#bba25e !important;
+}
+.color-letter{
+	color:#e2c882 !important;
+}
+
+.margin-ofertas{
+	padding:0px 0px 0px 10px !important;
+}
 
 /*=============================================
 ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)

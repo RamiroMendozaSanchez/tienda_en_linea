@@ -71,44 +71,7 @@ $modulos = array($gratis, $ventas, $vistas);
 
 for($i = 0; $i < count($titulosModulos); $i ++){
 
-	echo '<div class="container-fluid well well-sm barraProductos">
-
-			<div class="container">
-				
-				<div class="row">
-					
-					<div class="col-xs-12 organizarProductos">
-
-						<div class="btn-group pull-right">
-
-							 <button type="button" class="btn btn-default btnGrid" id="btnGrid'.$i.'">
-							 	
-								<i class="fa fa-th" aria-hidden="true"></i>  
-
-								<span class="col-xs-0 pull-right"> GRID</span>
-
-							 </button>
-
-							 <button type="button" class="btn btn-default btnList" id="btnList'.$i.'">
-							 	
-								<i class="fa fa-list" aria-hidden="true"></i> 
-
-								<span class="col-xs-0 pull-right"> LIST</span>
-
-							 </button>
-							
-						</div>		
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-		<div class="container-fluid productos">
+	echo '<div class="container-fluid productos">
 	
 			<div class="container">
 		
@@ -151,7 +114,7 @@ for($i = 0; $i < count($titulosModulos); $i ++){
 
 					if($value["estado"] != 0){
 					
-					echo '<li class="col-md-3 col-sm-6 col-xs-12">
+					echo '<li class="col-md-3 col-sm-6 col-xs-12 bordes">
 
 							<figure>
 								
@@ -181,13 +144,13 @@ for($i = 0; $i < count($titulosModulos); $i ++){
 
 										if($fechaNueva < $value["fecha"]){
 
-											echo '<span class="label label-warning fontSize">Nuevo</span> ';
+											echo '<span class="label label-default fontSize">Nuevo</span> ';
 
 										}
 
 										if($value["oferta"] != 0 && $value["precio"] != 0){
 
-											echo '<span class="label label-warning fontSize">'.$value["descuentoOferta"].'% off</span>';
+											echo '<span class="label fontSize color">'.$value["descuentoOferta"].'% off</span>';
 
 										}
 
@@ -215,7 +178,7 @@ for($i = 0; $i < count($titulosModulos); $i ++){
 
 											</small>
 
-											<small>$'.$value["precioOferta"].'</small>
+											<small class="color-letter">$'.$value["precioOferta"].'</small>
 										
 										</h2>';
 
@@ -427,4 +390,3 @@ for($i = 0; $i < count($titulosModulos); $i ++){
 }
 
 ?>
-
