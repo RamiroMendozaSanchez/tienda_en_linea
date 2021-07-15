@@ -70,7 +70,7 @@ VITRINA PRODUCTOS CUADRÍCULA
 
 .productos ul .bordes{
 	padding:1px;
-	margin-left: 10px;
+	margin-left: 5px;
 
 }
 
@@ -108,17 +108,25 @@ VITRINA PRODUCTOS CUADRÍCULA
 }
 
 .productos ul li div.enlaces{
-	padding:0;
+	padding-right:5px;
 	padding-bottom:20px;
 }
 
+.deseos i{
+	color:rgb(240, 62, 62) !important;
+}
+
 .productos ul li div.enlaces button{
-	margin:2px;
+	margin:5px;
+	/*padding-right:10px;*/
 }
 
 .productos ul li div.enlaces button i{
-	color:#999;
+	color:#e2c882;
 	font-size:12px;
+}
+.ver-producto i{
+	color:#e2c882 !important
 }
 
 /*=============================================

@@ -334,7 +334,7 @@ JUMBOTRON AVISO OFERTA
 
 								<a href="'.$url.$value["ruta"].'" class="pixelOferta">
 
-								<button class="btn backColor btn-lg text-uppercase">Ir a la Oferta</button>
+								<button class="btn back btn-lg text-uppercase">Ir a la Oferta</button>
 
 								</a>
 

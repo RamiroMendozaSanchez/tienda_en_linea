@@ -127,14 +127,14 @@ TABLA CARRITO DE COMPRAS
 
 					if($_SESSION["validarSesion"] == "ok"){
 
-						echo '<a id="btnCheckout" href="#modalCheckout" data-toggle="modal" idUsuario="'.$_SESSION["id"].'"><button class="btn btn-default backColor btn-lg pull-right">REALIZAR PAGO</button></a>';
+						echo '<a id="btnCheckout" href="#modalCheckout" data-toggle="modal" idUsuario="'.$_SESSION["id"].'"><button class="btn btn-success btn-lg pull-right">REALIZAR PAGO</button></a>';
 
 					}
 
 
 				}else{
 
-					echo '<a href="#modalIngreso" data-toggle="modal"><button class="btn btn-default backColor btn-lg pull-right">REALIZAR PAGO</button></a>';
+					echo '<a href="#modalIngreso" data-toggle="modal"><button class="btn btn-default backCSolor btn-lg pull-right">REALIZAR PAGO</button></a>';
 				}
 
 			?>	
@@ -313,10 +313,10 @@ VENTANA MODAL PARA CHECKOUT
 						<input name="test" type="hidden" value="" />
 						<input name="signature" type="hidden" value=""/>
 
-					  <input name="Submit" class="btn btn-block btn-lg btn-default backColor" type="submit"  value="PAGAR" >
+					  <input name="Submit" class="btn btn-block btn-lg btn-success backColor" type="submit"  value="PAGAR" >
 					</form>
 					
-					<button class="btn btn-block btn-lg btn-default backColor btnPagar">PAGAR</button>
+					<button class="btn btn-block btn-lg btn-success btnPagar">PAGAR</button>
 
 				</div>
 

@@ -55,23 +55,23 @@ SECCIÓN PERFIL
 		<ul class="nav nav-tabs">
 		  
 	  		<li class="active">	  			
-			  	<a data-toggle="tab" href="#compras">
-			  	<i class="fa fa-list-ul"></i> MIS COMPRAS</a>
+			  	<a class="color-taps" data-toggle="tab" href="#compras">
+			  	<i class="fa fa-list-ul color-icon"></i> MIS COMPRAS</a>
 	  		</li>
 
 	  		<li> 				
-		  		<a data-toggle="tab" href="#deseos">
-		  		<i class="fa fa-gift"></i> MI LISTA DE DESEOS</a>
+		  		<a class="color-taps" data-toggle="tab" href="#deseos">
+		  		<i class="fa fa-gift color-icon"></i> MI LISTA DE DESEOS</a>
 	  		</li>
 
 	  		<li>				
-	  			<a data-toggle="tab" href="#perfil">
-	  			<i class="fa fa-user"></i> EDITAR PERFIL</a>
+	  			<a class="color-taps" data-toggle="tab" href="#perfil">
+	  			<i class="fa fa-user color-icon"></i> EDITAR PERFIL</a>
 	  		</li>
 
 	  		<li>				
-		 	 	<a href="<?php echo $url; ?>ofertas">
-		 	 	<i class="fa fa-star"></i>	VER OFERTAS</a>
+		 	 	<a class="color-taps" href="<?php echo $url; ?>ofertas">
+		 	 	<i class="fa fa-star color-icon"></i>	VER OFERTAS</a>
 	  		</li>
 		
 		</ul>
@@ -368,7 +368,7 @@ SECCIÓN PERFIL
 			PESTAÑA DESEOS
 			======================================-->
 
-		  	<div id="deseos" class="tab-pane fade">
+		  	<div id="deseos" class="tab-pane ">
 		    	
 			<?php
 
@@ -400,7 +400,7 @@ SECCIÓN PERFIL
 
 							foreach ($productos as $key => $value2) {
 							
-							echo '<li class="col-md-3 col-sm-6 col-xs-12">
+							echo '<li class="col-md-3 col-sm-6 col-xs-12 bordes">
 
 									<figure>
 										
@@ -774,7 +774,7 @@ VENTANA MODAL PARA COMENTARIOS
 
 			  		<br>
 					
-					<input type="submit" class="btn btn-default backColor btn-block" value="ENVIAR">
+					<input type="submit" class="btn btn-success btn-block" value="ENVIAR">
 
 				</div>
 
